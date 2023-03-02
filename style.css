@@ -1,0 +1,23 @@
+.header {
+  padding: 48px 16px;
+  background-color: aliceblue;
+}
+
+div {
+  width: 500px;
+  border: 5px solid red;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h1,
+h2,
+h3 {
+  color: dodgerblue;
+}
