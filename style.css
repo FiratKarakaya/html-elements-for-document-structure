@@ -22,12 +22,25 @@ body {
   margin: 0;
 }
 
+*::selection {
+  background-color: blue;
+  color: white;
+}
+
 /* >>>>> Specific Stylings <<<<< */
 
 .header {
   padding: 48px 16px;
   text-align: center;
   background-color: #eee;
+}
+
+.profession::before {
+  content: "📖 ";
+}
+
+.profession::after {
+  content: " 📖";
 }
 
 .nav-link {
