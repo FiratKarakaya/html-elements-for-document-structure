@@ -31,8 +31,10 @@ body {
 
 .header {
   padding: 48px 16px;
+  padding-top: 72px;
   text-align: center;
   background-color: #eee;
+  position: relative;
 }
 
 .profession::before {
@@ -41,6 +43,16 @@ body {
 
 .profession::after {
   content: " 📖";
+}
+
+.hire-me {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  padding: 8px;
+  border-radius: 4px;
+  background: plum;
+  color: black;
 }
 
 .nav-link {
